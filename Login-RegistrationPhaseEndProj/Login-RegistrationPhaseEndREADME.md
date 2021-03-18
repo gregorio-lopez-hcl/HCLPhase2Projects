@@ -13,7 +13,7 @@ create database db_example;
 create user 'springuser'@'%' identified by 'password'; 
 grant all on db_example.* to 'User'@'%';
 ```
-###Creating a table
+### Creating a table
 ```sql
 CREATE TABLE db_example.user (
   `id` int NOT NULL AUTO_INCREMENT,
